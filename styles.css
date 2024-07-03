@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Thin;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: Compact;
+    src: url(fonts/Oswald-Bold.ttf);
+}
+body {
+    background-color: rgb(36, 36, 36);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Thin;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: Thin;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Thin;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 1000;
+    height: 800;
+    padding: 35px;
+}
+.navbar ul {
+    background-color: rgb(53, 53, 53);
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: Compact;
+    color: white;
+}
+.navbar a:hover {
+    background-color: rgb(43, 43, 43);
+}
+.navbar li {
+    float: left;
+    padding: 15px;
+}
+.navbarB ul {
+    background-color: rgb(53, 53, 53);
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navbarB a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: Compact;
+    color: white;
+}
+.navbarB a:hover {
+    background-color: rgb(43, 43, 43);
+}
